@@ -10,7 +10,7 @@ const port = 3000;
 // Construct a schema, using GraphQL schema language
 var schema = buildSchema(typeDefs);
 
-app.use('/graphql', graphqlHTTP({
+app.use('/api', graphqlHTTP({
   schema: schema,
   rootValue: resolverRoot,
   graphiql: true,
