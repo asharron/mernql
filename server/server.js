@@ -6,7 +6,7 @@ const { typeDefs } = require('./graphql/schema.gql');
 const { resolverRoot } = require('./graphql/resolvers');
 
 const app = express();
-const port = 3000;
+const port = 8080;
 const mongo_uri = 'mongodb://localhost:27017';
 
 var db = null;
