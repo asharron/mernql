@@ -1,0 +1,23 @@
+{
+  "name": "mernql",
+  "version": "1.0.0",
+  "description": "NodeJS web stack",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asharron/mernql.git"
+  },
+  "author": "Alexandrith Sharron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asharron/mernql/issues"
+  },
+  "homepage": "https://github.com/asharron/mernql#readme"
+}
