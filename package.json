@@ -1,0 +1,22 @@
+{
+  "name": "mernql",
+  "version": "1.0.0",
+  "description": "Mongodb Express React NodeJS GraphQL stack template for new projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm start &",
+    "server": "cd .. && cd server && npm run dev",
+    "start": "npm run client && npm run server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asharron/mernql.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asharron/mernql/issues"
+  },
+  "homepage": "https://github.com/asharron/mernql#readme"
+}
