@@ -8,8 +8,11 @@
     "express-graphql": "^0.9.0",
     "graphql": "^14.4.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
