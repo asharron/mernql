@@ -1,4 +1,14 @@
+type Post {
+  id: ID! @id
+  content: String!
+  postedBy: User @relation(link: INLINE)
+}
+
 type User {
   id: ID! @id
   name: String!
+  email: String! @unique
+  password: String!
+  posts: [Post!]!
 }
+

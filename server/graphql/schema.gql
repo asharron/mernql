@@ -1,7 +1,31 @@
 const typeDefs = `
 type Query {
     hello: String!
-  }
+}
+
+type Mutation {
+    post(content: String!): Post!
+    signup(email: String!, password: String!, name: String!): AuthPayload
+    login(email: String!, password: String!): AuthPayload
+}
+
+type AuthPayload {
+    token: String
+    user: User
+}
+
+type User {
+    id: ID!
+    name: String!
+    email: String!
+    posts: [Post!]!
+}
+
+type Post {
+    id: ID!
+    content: String!
+    postedBy: User
+}
 `;
 
 
